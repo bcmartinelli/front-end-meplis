@@ -1,0 +1,11 @@
+
+<div id="teste-ui">
+  <div id="container">
+    <div class="card-container" *ngFor="let item of cardsList">
+      <div class="card">
+        {{item}}
+      </div>
+    </div>
+  </div>
+  <button (click)="gotToHomePage()" title="Back page">Back</button>
+</div>
