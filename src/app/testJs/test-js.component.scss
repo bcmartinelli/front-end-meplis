@@ -1,4 +1,4 @@
-#teste-ui {
+#test-js {
   button {
     display: block;
     margin: 2rem auto;
@@ -17,12 +17,9 @@
   }
 
   #container {
-    display: inline-flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    gap: 16px;
-    width: 100%;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
 
     .card-container {
       display: inline-flex;

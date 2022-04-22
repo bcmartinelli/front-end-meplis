@@ -3,12 +3,12 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-teste-ui',
-  templateUrl: './teste-ui.component.html',
-  styleUrls: ['./teste-ui.component.scss']
+  selector: 'app-test-ui',
+  templateUrl: './test-ui.component.html',
+  styleUrls: ['./test-ui.component.scss']
 })
 
-export class TesteUiComponent implements OnInit {
+export class TestUiComponent implements OnInit {
 
   cardsList: string[] = [
     'Card 01',

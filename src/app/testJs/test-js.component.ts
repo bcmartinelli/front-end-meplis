@@ -2,15 +2,15 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { ChartConfiguration, ChartData, ChartType } from 'chart.js';
 import { BaseChartDirective } from 'ng2-charts';
-import { TesteJsService } from './service/teste-js.service';
+import { TestJsService } from './service/test-js.service';
 
 @Component({
-  selector: 'app-teste-js',
-  templateUrl: './teste-js.component.html',
-  styleUrls: ['./teste-js.component.scss']
+  selector: 'app-test-js',
+  templateUrl: './test-js.component.html',
+  styleUrls: ['./test-js.component.scss']
 })
 
-export class TesteJsComponent implements OnInit {
+export class TestJsComponent implements OnInit {
 
   @ViewChild(BaseChartDirective) chart: BaseChartDirective | undefined;
 
@@ -38,7 +38,7 @@ export class TesteJsComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private _service: TesteJsService) { }
+    private _service: TestJsService) { }
 
   ngOnInit() {
     this.getChartData();

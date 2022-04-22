@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TesteUiComponent } from './teste-ui.component';
+import { TestUiComponent } from './test-ui.component';
 
-describe('HomeComponent', () => {
-  let component: TesteUiComponent;
-  let fixture: ComponentFixture<TesteUiComponent>;
+describe('TestUiComponent', () => {
+  let component: TestUiComponent;
+  let fixture: ComponentFixture<TestUiComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ TesteUiComponent ]
+      declarations: [ TestUiComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TesteUiComponent);
+    fixture = TestBed.createComponent(TestUiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

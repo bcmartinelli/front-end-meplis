@@ -1,24 +1,24 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { NgChartsModule } from 'ng2-charts';
-import { TesteJsService } from './service/teste-js.service';
+import { TestJsService } from './service/test-js.service';
 
-import { TesteJsComponent } from './teste-js.component';
+import { TestJsComponent } from './test-js.component';
 
-describe('HomeComponent', () => {
-  let component: TesteJsComponent;
-  let fixture: ComponentFixture<TesteJsComponent>;
+describe('TestJsComponent', () => {
+  let component: TestJsComponent;
+  let fixture: ComponentFixture<TestJsComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ TesteJsComponent ],
+      declarations: [ TestJsComponent ],
       imports: [ NgChartsModule ],
-      providers: [ TesteJsService ]
+      providers: [ TestJsService ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TesteJsComponent);
+    fixture = TestBed.createComponent(TestJsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
